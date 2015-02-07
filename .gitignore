@@ -3,3 +3,12 @@ rose-build
 rose-install
 apk-to-java
 apk-to-rose.rc
+examples/HelloWorld-identityTranslator
+examples/HelloWorld-virtualCFG
+examples/LabelBreak_1st-identityTranslator
+examples/LabelBreak_1st-virtualCFG
+examples/LabelBreak_2nd-identityTranslator
+examples/LabelBreak_2nd-virtualCFG
+examples/LabelBreak_3rd-identityTranslator
+examples/LabelBreak_3rd-virtualCFG
+
