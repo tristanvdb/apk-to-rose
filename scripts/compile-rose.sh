@@ -21,7 +21,7 @@ echo
 echo "---------------"
 
 
-$APK2ROSE_HOME/rose-install/bin/$2 $1.java &> $3
+$APK2ROSE_HOME/rose-install/bin/$2 $1 &> $3
 
 if [ $? -ne 0 ]
 then
