@@ -21,6 +21,8 @@ echo "[ -z \$APK2JAVA_HOME ] && source $APK2JAVA_HOME/apk-to-java.rc" >> apk-to-
 echo >> apk-to-rose.rc
 source apk-to-rose.rc
 
+if [ ! -z $1]
+then
 if [ ! -e rose ]
 then
   git clone git@github.com:rose-compiler/edg4x-rose.git rose
@@ -46,4 +48,4 @@ fi
 make install-core -j8
 
 cd ..
-
+fi
